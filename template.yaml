@@ -73,7 +73,7 @@ Resources:
         - arm64
       Layers:
           # Latest version: https://awslabs.github.io/aws-lambda-powertools-python/latest/#lambda-layer
-          - !Sub arn:aws:lambda:${AWS::Region}:017000801446:layer:AWSLambdaPowertoolsPython:4
+          - !Sub arn:aws:lambda:${AWS::Region}:017000801446:layer:AWSLambdaPowertoolsPython:6
       # The function needs permission to call back to the S3 Object Lambda Access Point with the WriteGetObjectResponse.
       Policies:
         - S3CrudPolicy:
