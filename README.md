@@ -1,6 +1,6 @@
 # S3 Object Lambda example
 
-## Deployment 
+## Deployment
 
 Build:
 
@@ -38,4 +38,10 @@ After initial deployment, run in watch mode
 
 ```script
 make watch
+```
+
+Clean up local environment
+
+```script
+make clean
 ```
